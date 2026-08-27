@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# Data & model artifacts (large binary files should not go in git)
+data/synthetic/
+data/raw/
+data/processed/
+checkpoints/
+models/torchMuscleModels/
+*.pt
+*.pth
+
+# Outputs
+outputs/
+*.png
+*.svg
+!docs/**/*.png
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/

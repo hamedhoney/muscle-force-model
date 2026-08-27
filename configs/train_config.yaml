@@ -1,0 +1,22 @@
+data_dir: data/synthetic
+output_dir: checkpoints
+
+n_folds: 3
+seed: 0
+
+encode_dim: 2
+encode_feature: 150
+cnn_features: 64
+
+ae_epochs: 60
+ae_lr: 0.001
+ae_batch_size: 8
+ae_weight_decay: 1.0e-05
+
+cnn_epochs: 60
+cnn_lr: 0.001
+cnn_batch_size: 8
+cnn_weight_decay: 1.0e-05
+
+device: cpu
+muscles: []
